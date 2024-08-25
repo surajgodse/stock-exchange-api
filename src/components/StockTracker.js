@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 const STOCK_LIST = ['AAPL', 'GOOGL', 'MSFT', 'AMZN'];
-const API_KEY = '89K5ZT4NS4HC9KTY';
+const API_KEY = '*************************';
 
 const StockTracker = () => {
   const [stocksData, setStocksData] = useState([]);
